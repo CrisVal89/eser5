@@ -33,11 +33,24 @@ body, html{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .proph1{
     font-size: 64px;
     position: relative;
     font-family: "Raleway", sans-serif;
+    padding: 12px 24px;
+}
 
+p {
+    padding: 12px;   
+    text-align: center;
+}
+
+.bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
 }
