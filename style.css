@@ -23,6 +23,9 @@ body, html{
     position: relative;
 }
 
+.opac{
+    animation: opac 0.8s;
+} 
 .proplogo{
     font-size: 30px;
     padding: 12px 24px;
@@ -43,6 +46,12 @@ body, html{
     padding: 12px 24px;
 }
 
+.animetop {
+    position: relative;
+    animation: animetop 0.4s;
+
+}
+
 p {
     padding: 12px;   
     text-align: center;
@@ -53,4 +62,24 @@ p {
     left: 0;
     bottom: 0;
     padding: 20px;
+}
+
+@keyframes animetop {
+    0% {
+        top: -300px;
+        opacity: 0;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes opac {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
